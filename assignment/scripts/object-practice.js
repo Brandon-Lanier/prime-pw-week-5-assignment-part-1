@@ -35,7 +35,7 @@ console.log(fullName);
 */
 
 console.log(`Logging first favorite food: ${me.favThreeFoods[0]}`);
-console.log(`Looging last favorite foodL: ${me.favThreeFoods[2]}`);
+console.log(`Looging last favorite food: ${me.favThreeFoods[2]}`);
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
@@ -45,7 +45,7 @@ console.log(`Looging last favorite foodL: ${me.favThreeFoods[2]}`);
 */
 console.log(`Our current shoe count is ${me.shoeCount}`);
 
-me.shoeCount = 4; // This can also be done by using the += and setting it to 1.   me.shoeCount += 1;
+me.shoeCount += 1;
 
 console.log(`We got new shoes, so now our shoe count is ${me.shoeCount}`);
 
@@ -59,3 +59,4 @@ console.log(`We got new shoes, so now our shoe count is ${me.shoeCount}`);
 me.favoriteColor = 'Blue';
 
 console.log(`Added a new property called favoriteColor, which is ${me.favoriteColor}`);
+console.log('Our full object should now contain our favorite color', me);
