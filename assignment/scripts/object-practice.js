@@ -16,6 +16,7 @@ const me = {
   shoeCount: 3,
   favThreeFoods: ['Pangang Curry', 'Ramen', 'Tacos']
 };
+
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
@@ -24,10 +25,10 @@ console.log('A little about me:', me);
     created above to set its value.
   - Console.log fullName
 */
+
 let fullName = me.firstName + me.lastName;
 
 console.log(fullName);
-
 
 /* 3. Nested arrays
   - Console.log your first favorite food
@@ -43,9 +44,10 @@ console.log(`Looging last favorite food: ${me.favThreeFoods[me.favThreeFoods.len
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count.
 */
+
 console.log(`Our current shoe count is ${me.shoeCount}`);
 
-me.shoeCount += 1;
+me.shoeCount += 1; // We could also just change the value of this by doing me.shoeCount = 4;
 
 console.log(`We got new shoes, so now our shoe count is ${me.shoeCount}`);
 
